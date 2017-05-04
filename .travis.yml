@@ -1,6 +1,7 @@
 language: objective-c
+osx_image: xcode7.3
 xcode_project: StopWatch.xcodeproj
-xcode_scheme: StopWatch
-osx_image: xcode8.3
+xcode_scheme:
+xcode_sdk: iphonesimulator
 script:
- - xctool -project StopWatch.xcodeproj -scheme StopWatch
+- xctool test -project StopWatch.xcodeproj -scheme StopWatch -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 6,OS=8.1"
