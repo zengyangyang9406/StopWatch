@@ -4,4 +4,4 @@ xcode_project: StopWatch.xcodeproj
 xcode_scheme:
 xcode_sdk: iphonesimulator
 script:
-- xctool test -project StopWatch.xcodeproj -scheme StopWatch -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 6s,OS=10.3"
+- xctool test -project StopWatch.xcodeproj -scheme StopWatch -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 6s,OS=9.0"
