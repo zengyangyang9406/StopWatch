@@ -76,6 +76,12 @@
 
 #pragma mark - 懒加载
 
+-(int)getNum{
+    
+    return 100;
+    
+}
+
 - (NSMutableArray *)jcArray
 
 {
@@ -104,7 +110,6 @@
     [self.view setBackgroundColor:bgColor];
     
     _states = YES;
-    
     
     [self _loadViews];
     
