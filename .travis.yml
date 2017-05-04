@@ -1,4 +1,2 @@
 language: objective-c
-xcode_project: StopWatch.xcodeproj
-xcode_scheme: StopWatchTests
-osx_image: xcode8.3
+

@@ -20,6 +20,34 @@
                ReferencedContainer = "container:StopWatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6F85F8D01EB2D1970044725C"
+               BuildableName = "StopWatchTests.xctest"
+               BlueprintName = "StopWatchTests"
+               ReferencedContainer = "container:StopWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6F85F8DB1EB2D1970044725C"
+               BuildableName = "StopWatchUITests.xctest"
+               BlueprintName = "StopWatchUITests"
+               ReferencedContainer = "container:StopWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
