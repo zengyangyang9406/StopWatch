@@ -215,6 +215,7 @@
 					};
 					6F85F8D01EB2D1970044725C = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 3WK62L6U43;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 6F85F8B41EB2D1970044725C;
 					};
@@ -453,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3WK62L6U43;
 				INFOPLIST_FILE = StopWatchTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZengYangYang.StopWatchTests;
@@ -465,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3WK62L6U43;
 				INFOPLIST_FILE = StopWatchTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZengYangYang.StopWatchTests;
